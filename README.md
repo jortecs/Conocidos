@@ -47,3 +47,4 @@ Responde correctamente, acumula puntos y...
 1. Clona este repositorio:
    ```bash
    git clone https://github.com/jortecs/Conocidos
+2. O pruebalo online: https://conocidos-frontend.vercel.app
