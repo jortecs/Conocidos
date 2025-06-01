@@ -26,9 +26,14 @@ Cuando todos los jugadores estén listos, presionen **"LISTO"** para comenzar.
   - ✅ Verdadero o falso
   - 🔘 Selección simple
 
+![Image](https://github.com/user-attachments/assets/febdca50-6d16-422d-babe-1fece2ba9544)
+
+
+
 Responde correctamente, acumula puntos y...  
 ¡Gana todas las rondas que puedas!
 
+![Image](https://github.com/user-attachments/assets/1e91dc40-5724-4a04-a095-fb7e07992578)
 ---
 
 ## 🧱 Tecnologías utilizadas
