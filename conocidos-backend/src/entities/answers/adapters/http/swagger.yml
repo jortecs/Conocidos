@@ -1,0 +1,93 @@
+paths:
+  /user/:
+    get:
+      summary: Get all users
+      tags:
+        - Users
+      responses:
+        200:
+          description: Ok
+    post:
+      summary: Create
+      tags:
+        - Users
+      requestBody:
+        description: User data
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                email:
+                  type: string
+                username:
+                  type: string
+                password:
+                  type: string
+            examples:
+              Credentials exmaple:
+                value:
+                  email: pp@pp.com
+                  username: Paco
+                  password: 123
+      responses:
+        200:
+          description: Ok
+  /user/{id}:
+    delete:
+      summary: Delete user by id
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+      responses:
+        200:
+          description: Ok
+    get:
+      summary: Get user by id
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          example: 1 
+      responses:
+        200:
+          description: Ok
+    put:
+      summary: Update user by id
+      tags:
+        - Users
+      parameters:
+        - name: id
+          in: path
+          required: true
+          example: 1
+      requestBody:
+        description: User data
+        content:
+          application/json:
+            schema:
+              type: object
+              properties:
+                user:
+                  type: object
+                  properties:
+                    email:
+                      type: string
+                    username:
+                      type: string
+                    password:
+                      type: string
+            examples:
+              Credentials exmaple:
+                value:
+                  email: aa@aa.com
+                  username: Paco
+                  password: 456
+      responses:
+        200:
+          description: Ok   

@@ -1,0 +1,5 @@
+{
+  "watch": ["src"],
+  "ext": "ts,json,js",
+  "exec": "kill-port 3000 & npm run start"
+}

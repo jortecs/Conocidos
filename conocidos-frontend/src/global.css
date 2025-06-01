@@ -1,0 +1,94 @@
+@import "tailwindcss";
+
+body {
+  font-family: 'Lilita one';
+}
+
+.mosaic-avatar::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-avatar.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.2;
+  z-index: -1;
+
+}
+
+.mosaic-avatar2::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-avatar2.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.1;
+  z-index: -1;
+
+}
+
+.mosaic-question::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-question.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.mosaic-game::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-game.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.mosaic-end::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-end.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.1;
+  z-index: -1;
+}
+
+.mosaic-error::before {
+  content: '';
+  position: fixed;
+  top: 0;
+  left: 0;
+  width: 100%;
+  height: 100%;
+  background-image: url('/background/mosaic-error.png');
+  background-repeat: repeat;
+  background-size: 150px 150px;
+  opacity: 0.1;
+  z-index: -1;
+}
+.opac::before{
+  opacity: 0.5;
+}
